@@ -1,0 +1,33 @@
+body{
+	background-color: gray;
+}
+h1{
+	text-align: center;
+	color: #ee5a74;
+	background-color: black;
+	font-weight: bold;
+	font-size: 40px;
+	text-transform: uppercase;
+	height: 70px;
+	vertical-align: center;
+	padding-top: 10px;
+	margin-top: 0px;
+}
+#formulario-registro{
+	margin-top: 85px;
+	margin-bottom: 85px;
+	text-align: center;
+	height: 300px;
+	width: 700px;
+	background-color: #0af2fd;
+}
+#primerDiv,#segundoDiv,#tercerDiv, div > a{
+	padding-top: 25px;
+}
+#invitado{
+	color: black;
+}
+#footer{
+	background-color: black;
+	height: 114px;
+}

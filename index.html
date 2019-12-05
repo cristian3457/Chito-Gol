@@ -3,9 +3,40 @@
 <head>
 	<title>Quinielas El Chito</title>
 	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	
+
 </head>
-<body style="background-color: gray;">
-	<h1>QUINIELAS EL CHITO</h1>
-	<p>Quinielas el chito es un negocio responsable que le interesa la satisafacción de sus clientes</p>
+<body>
+	<h1>Quinielas el chito</h1>
+	<div class="card-body container" id="formulario-registro">
+		<form action="login.php" method="post"> 
+		    <div class="input-group form-group" id="primerDiv">
+		        <div class="input-group-prepend">
+		            <span class="input-group-text"><i class="fas fa-user"></i></span>
+		        </div>
+		        <input type="text" class="form-control" name="usuario" placeholder="usuario">
+		    </div>               
+		    <div class="input-group form-group" id="segundoDiv">
+		        <div class="input-group-prepend">
+		            <span class="input-group-text"><i class="fas fa-key"></i></span> 
+		        </div>
+		        <input type="password" class="form-control" name="password" placeholder="contraseña">
+		    </div>
+		    <div class="form-group" id="tercerDiv">
+		        <input type="submit" value="Entrar" class="btn btn-primary btn-block">
+		    </div>
+		    <a href="invitado.php" id="invitado">Ingresar como Invitado</a>
+		</form>
+    </div>
+    <div id="footer">
+    	
+    </div>
+	<script type="text/javascript" src="js/all.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>
