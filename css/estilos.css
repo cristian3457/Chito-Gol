@@ -1,5 +1,5 @@
 body{
-	background-color: gray;
+	background-color: #6f0ea6;
 }
 h1{
 	text-align: center;
@@ -18,9 +18,10 @@ h1{
 	margin-bottom: 85px;
 	text-align: center;
 	height: 300px;
-	width: 700px;
-	background-color: #0af2fd;
+	width: 534px;
+	background-image: url("../img/fondo.jpg");
 }
+
 #primerDiv,#segundoDiv,#tercerDiv, div > a{
 	padding-top: 25px;
 }
