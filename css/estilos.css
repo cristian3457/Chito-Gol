@@ -31,6 +31,7 @@ h1{
 	background-color: black;
 	height: 114px;
 }
-#navbarSupportedContent{
+ul li a:hover{
 	color: red!important;
 }
+
