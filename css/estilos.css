@@ -31,3 +31,6 @@ h1{
 	background-color: black;
 	height: 114px;
 }
+#navbarSupportedContent{
+	color: red!important;
+}
